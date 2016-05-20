@@ -1,3 +1,33 @@
-body {
+div {
 	
+}
+
+.header {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+}
+
+.social-media {
+	float: right;
+}
+
+.top-menu {
+	clear: both;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #2a2d32;
+	color: white;
+	text-transform: uppercase;
+	
+
 }
