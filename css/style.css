@@ -2,6 +2,10 @@ div {
 	
 }
 
+a {
+	text-decoration: none;
+}
+
 .header {
 	width: 1160px;
 	margin: 0 auto;
@@ -28,6 +32,17 @@ div {
 	background-color: #2a2d32;
 	color: white;
 	text-transform: uppercase;
-	
+}
 
+.top-menu a {
+	color: white;
+}
+
+.top-menu a:hover {
+	color: #f4b60d;
+}
+
+.content {
+	width: 1160px;
+	margin: 0 auto;	
 }
