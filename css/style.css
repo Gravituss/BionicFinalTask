@@ -219,3 +219,33 @@ a {
 	margin-left: 27px;
 	margin-right: 27px;
 }
+
+.footer {
+	width: 1000px;
+	margin: auto;
+}
+
+.ultimate-footer {
+	overflow: hidden;
+	background-color: #35383c;
+	font-size: 12px;
+}
+
+.ufooter {
+	display: inline-block;
+	float: left;
+	color: #6f7073;
+}
+
+.phone {
+
+}
+
+.email a {
+	color: #868789;
+}
+
+.copyright {
+	float: right;
+	color: #6f7073;
+}
