@@ -1,5 +1,6 @@
 body {
 	 counter-reset: my-counter;
+	 padding-bottom: 200px;
 }
 
 div {
@@ -55,6 +56,7 @@ a {
 	counter-increment: my-counter;
 	display: inline-block;
 	margin-left: 50px;
+	overflow: hidden;
 }
 
 .iii-block:before {
@@ -62,4 +64,9 @@ a {
   font-size: 64px;
   font-weight: bold;
   opacity: 0.2;
+  float: left;
+}
+
+.block-text {
+	width: 200px;
 }
