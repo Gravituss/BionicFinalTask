@@ -14,6 +14,7 @@ a {
 .header {
 	width: 1160px;
 	margin: 0 auto;
+	margin-top: 20px;
 }
 
 .logo {
@@ -21,14 +22,14 @@ a {
 }
 
 .logo a {
-	transition: all 0.2s ease;
+	transition: all 0.3s ease;
 	position: relative;
 	top: 0px;
 	z-index: 99;
 }
 
 .logo a:hover {
-	transition: all 0.2s ease;
+	transition: all 0.3s ease;
 	position: relative;
 	top: 2px;
 	z-index: 99;
@@ -36,6 +37,10 @@ a {
 
 .social-media {
 	float: right;
+}
+
+.social-media li {
+	display: inline-block;
 }
 
 .top-menu {
@@ -186,4 +191,31 @@ a {
 .banners-place {
 	float: right;
 	width: 560px;
+}
+
+.sponsors {
+	text-align:center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	opacity: .65;
+}
+
+.sponsors a {
+	transition: all 0.3s ease;
+	position: relative;
+	top: 0;
+	
+}
+
+.sponsors a:hover {
+	transition: all 0.3s ease;
+	position: relative;
+	top: 2px;
+
+}
+
+.sp-logo {
+	display: inline-block;
+	margin-left: 27px;
+	margin-right: 27px;
 }
