@@ -1,3 +1,7 @@
+body {
+	 counter-reset: my-counter;
+}
+
 div {
 	
 }
@@ -45,4 +49,17 @@ a {
 .content {
 	width: 1160px;
 	margin: 0 auto;	
+}
+
+.iii-block {
+	counter-increment: my-counter;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.iii-block:before {
+  content: counter(my-counter, decimal-leading-zero);
+  font-size: 64px;
+  font-weight: bold;
+  opacity: 0.2;
 }
