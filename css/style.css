@@ -73,12 +73,14 @@ a {
 .iii-block {
 	counter-increment: my-counter;
 	display: inline-block;
-	margin-right: 140px;
+	margin-right: 100px;
 	overflow: hidden;
 }
 
 .iii-block h3 {
 	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .iii-block:before {
@@ -94,9 +96,37 @@ a {
 	float: left;
 }
 
+.read-more-link {
+	margin-top: 20px;
+}
+
+.iii-block a {
+	transition: all 0.2s ease;
+	color: #2a2b2e;
+	font-weight: bold;
+	margin-top: 20px;
+	
+
+}
+
+.iii-block a:hover {
+	transition: all 0.2s ease;
+	color: #248cec;
+
+}
+
+.iii-block a:after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	background-image: url('../img/small-arrow-sprite.png') no-repeat 0px 0px;
+
+}
+
 .services {
 	background-color: #2a2d32;
 	color: white;
+	margin-top: 100px;
 	
 }
 
