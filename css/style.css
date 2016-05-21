@@ -148,7 +148,9 @@ a {
 
 .double-block {
 	overflow: hidden;
-	margin-top: 20px;
+	padding-top: 20px;
+	background-color: #f7f7f7;
+
 }
 
 .double-block h2 {
@@ -157,10 +159,28 @@ a {
 	font-weight: bold;
 }
 
+.news-block {
+	overflow: hidden;
+}
+
 .latest-news {
 	float: left;
 	width: 560px;
 	margin-bottom: 48px;
+}
+
+.latest-news h4 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.img-block {
+	float: left;
+}
+
+.news-text {
+	width: 373px;
+	float: right;
 }
 
 .banners-place {
