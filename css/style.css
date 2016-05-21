@@ -43,6 +43,48 @@ a {
 	display: inline-block;
 }
 
+
+
+#fb-icon {
+	background:url('../img/facebook-sprite.png') no-repeat;
+    display: inline-block;
+    opacity: 1;
+    position: relative;
+    text-indent: -9999px;
+    width: 22px;
+    height: 25px;
+    background-position: 0px 0px;
+}
+
+#fb-icon span {
+	background: url('../img/facebook-sprite.png') no-repeat;
+    display: inline-block;
+    opacity: 0;
+    position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+    text-indent: -9999px;
+    width: 22px;
+    height: 25px;
+    background-position: 0px -24px;
+    
+    transition: all 0.3s ease;
+}
+
+#fb-icon:hover span {
+	transition: all 0.3s ease;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
 .top-menu {
 	clear: both;
 }
@@ -221,7 +263,7 @@ a {
 }
 
 .footer {
-	width: 1000px;
+	width: 1160px;
 	margin: auto;
 }
 
@@ -237,12 +279,28 @@ a {
 	color: #6f7073;
 }
 
-.phone {
+.address {
+	margin-right: 34px;
+}
 
+.address::before {
+	content: '';
+	width: 300px;
+	height: 6px;
+	background-image: url('../img/location-sprite.png');
+}
+
+.phone {
+	margin-right: 42px;
 }
 
 .email a {
 	color: #868789;
+}
+
+.email a:hover {
+	transition: all 0.4s ease;
+	color: #248cec;
 }
 
 .copyright {
