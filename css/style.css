@@ -4,7 +4,7 @@ body {
 }
 
 div {
-	
+	font-family: "Ubuntu", "Arial", sans-serif;
 }
 
 a {
@@ -41,6 +41,7 @@ a {
 
 .social-media li {
 	display: inline-block;
+	margin-left: 5px;
 }
 
 /* - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ HEADER SPRITES - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ */
@@ -65,7 +66,7 @@ a {
     text-indent: -9999px;
     width: 22px;
     height: 25px;
-    background-position: 0px -25px;
+    background-position: 0px -24px;
     transition: all 0.3s ease;
 }
 
@@ -94,7 +95,7 @@ a {
     text-indent: -9999px;
     width: 22px;
     height: 25px;
-    background-position: 0px -25px;
+    background-position: 0px -24px;
     transition: all 0.3s ease;
 }
 
@@ -123,7 +124,7 @@ a {
     text-indent: -9999px;
     width: 22px;
     height: 25px;
-    background-position: 0px -25px;
+    background-position: 0px -24px;
     transition: all 0.3s ease;
 }
 
@@ -152,7 +153,7 @@ a {
     text-indent: -9999px;
     width: 22px;
     height: 25px;
-    background-position: 0px -25px;
+    background-position: 0px -24px;
     transition: all 0.3s ease;
 }
 
@@ -181,7 +182,7 @@ a {
     text-indent: -9999px;
     width: 22px;
     height: 25px;
-    background-position: 0px -25px;
+    background-position: 0px -24px;
     transition: all 0.3s ease;
 }
 
@@ -219,6 +220,27 @@ a {
 	transition: all 0.2s ease;
 }
 
+.search-form {
+	position: relative;
+	width: 150px;
+}
+
+.search-form input {
+	font-size: 18px;
+	width: 240px;
+
+}
+
+.search-form button {
+	border: 3px solid #f88;
+	cursor: pointer;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: transparent url('../img/small-arrow-sprite.png');
+
+}
+
 .content {
 	width: 1160px;
 	margin: 0 auto;	
@@ -239,9 +261,9 @@ a {
 
 .iii-block:before {
   content: counter(my-counter, decimal-leading-zero);
-  font-size: 64px;
-  font-weight: bold;
-  opacity: 0.2;
+  font-size: 90px;
+  font-weight: 500;
+  opacity: 0.06;
   float: left;
 }
 
@@ -337,6 +359,11 @@ a {
 	float: right;
 }
 
+.news-text h4 {
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
 .banners-place {
 	float: right;
 	width: 560px;
@@ -359,7 +386,8 @@ a {
 .sponsors a:hover {
 	transition: all 0.3s ease;
 	position: relative;
-	top: 2px;
+	top: 0px;
+	opacity: .45;
 
 }
 
@@ -378,6 +406,10 @@ a {
 	overflow: hidden;
 	background-color: #35383c;
 	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .ufooter {
