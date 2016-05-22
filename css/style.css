@@ -226,19 +226,26 @@ a {
 }
 
 .search-form input {
+	border: 1px solid #181a1d;
 	font-size: 18px;
 	width: 240px;
+	background-color: #35383c;
 
 }
 
 .search-form button {
-	border: 3px solid #f88;
+	border: 0px;
 	cursor: pointer;
 	display: block;
 	width: 20px;
 	height: 20px;
-	background: transparent url('../img/small-arrow-sprite.png');
+	background: gray url('../img/search.png') no-repeat;
+	opacity: 0.5;
 
+}
+
+.search-form button:hover {
+	opacity: 1;
 }
 
 .content {
