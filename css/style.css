@@ -237,22 +237,43 @@ a {
 .search-form {
 	float: right;
 	position: relative;
-	top: 15px;
+	top: 5px;
 	right: 8px;
 
 }
 
+#s::-webkit-search-cancel-button {
+	display: none;
+}
+
 .search-form input {
 	border: 1px solid #181a1d;
-	font-size: 18px;
+	font-size: 12px;
 	width: 240px;
 	background-color: #35383c;
+	color: #626466;
+	padding-right: 50px;
+	padding-left: 14px;
+	padding-top: 14px;
+	padding-bottom: 15px;
+	transition: all 0.4s ease;
+}
 
+.search-form input:focus {
+	border: 1px solid #181a1d;
+	font-size: 16.5px;
+	width: 240px;
+	color: #ddd;
+	padding-left: 14px;
+	padding-top: 12px;
+	padding-bottom: 12px;	
+	background-color: #0c1524;
+	transition: all 0.4s ease;
 }
 
 .search-form button {
 	position: relative;
-	top: -20px;
+	top: -27px;
 	left: 210px;
 	border: 0px;
 	cursor: pointer;
@@ -260,13 +281,16 @@ a {
 	width: 20px;
 	height: 20px;
 	background: transparent url('../img/search.png') no-repeat;
-	opacity: 0.5;
-
+	opacity: 0.2;
+	transition: all 0.3s ease;
 }
 
 .search-form button:hover {
-	opacity: 0.7;
+	transition: all 0.3s ease;
+	opacity: 0.8;
 }
+
+/*-------------------------------------------------------------------- / Header ------------------------------*/
 
 .content {
 	width: 1160px;
@@ -326,9 +350,14 @@ a {
 
 .services {
 	background-color: #2a2d32;
-	color: white;
+	width: auto;
+	
 	margin-top: 100px;
 	
+}
+
+.serv-wrapper {
+	color: white;
 }
 
 .services h2 {
