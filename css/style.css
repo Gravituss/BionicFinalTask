@@ -260,20 +260,21 @@ a {
 }
 
 .search-form input:focus {
-	border: 1px solid #181a1d;
-	font-size: 16.5px;
+	outline: none;
+	border: 1px solid #ccc;
+	font-size: 12px;
 	width: 240px;
 	color: #ddd;
 	padding-left: 14px;
-	padding-top: 12px;
-	padding-bottom: 12px;	
+	padding-top: 14px;
+	padding-bottom: 15px;
 	background-color: #0c1524;
 	transition: all 0.4s ease;
 }
 
 .search-form button {
 	position: relative;
-	top: -27px;
+	top: -29px;
 	left: 210px;
 	border: 0px;
 	cursor: pointer;

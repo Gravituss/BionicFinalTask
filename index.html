@@ -11,10 +11,7 @@
 <body>
 	<div class="header">
 		<div class="logo">
-			<a href="index.html"><img src="img/logo.png" alt=""></a>
-			<div class="byb">
-				<img src="img/build-your-business.png" alt="">
-			</div>
+			<a href="index.html"><img src="img/logo.png" alt="logo"></a>
 		</div>
 		<div class="social-media">
 			<ul>
@@ -34,7 +31,7 @@
 				--><a href="#">Shop</a>
 
 			<div class="search">
-				<form action="search_form.asp" method="get" class="search-form">
+				<form action="search_form.asp" autocomplete="off" method="get" class="search-form">
 					<input type="search" name="s" id="s" placeholder="Search...">
 					<button type="submit" id="searchsubmit">&nbsp;</button>
 				</form>
@@ -44,7 +41,14 @@
 
 	</div> <!--           header           -->
 	<div class="content">
-		<img src="img/banner.jpg" alt="">
+		<div class="banner-wrapper">
+			<img src="img/banner.jpg" alt="banner">
+			<div class="byb">
+				<img src="img/build-your-business.png" alt="build_your_business">
+			</div>
+		</div>
+		
+
 		<div class="tripple-block">
 			<section class="iii-block">
 				<img src="img/yellow-icon-settings.png" alt="settings">
