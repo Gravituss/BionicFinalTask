@@ -293,7 +293,7 @@ a {
 /*-------------------------------------------------------------------- The end of Header ------------------------------*/
 
 .content {
-	width: 1160px;
+	
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
@@ -304,6 +304,7 @@ a {
 	
 	max-width: 1160px;
 	height: 470px;
+	margin: auto;
 }
 
 .byb {
@@ -362,9 +363,19 @@ a {
 }
 
 
+.tripple-block {
+	width: 1160px;
+	margin: auto;
+	text-align: center;
+}
+
+.iii-block {
+	text-align: left;
+}
 
 
 .iii-block {
+
 	counter-increment: my-counter;
 	display: inline-block;
 	margin-right: 100px;
@@ -417,7 +428,8 @@ a {
 
 .services {
 	background-color: #2a2d32;
-	width: auto;
+	
+	text-align: center;
 	
 	margin-top: 100px;
 	
@@ -430,6 +442,7 @@ a {
 .services h2 {
 	font-size: 30px;
 	text-transform: capitalize;
+	text-align: left;
 	
 }
 
@@ -518,11 +531,12 @@ a {
 }
 
 .footer {
-	width: 1160px;
+	
 	margin: auto;
 }
 
 .upper-footer {
+	width: auto;
 	margin: auto;
 	background-color: #555;
 }
@@ -550,6 +564,7 @@ a {
 	text-transform: uppercase;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	font-weight: 600;
 }
 
 .ultimate-footer {
