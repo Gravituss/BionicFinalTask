@@ -428,15 +428,31 @@ a {
 
 .services {
 	background-color: #2a2d32;
-	
-	text-align: center;
-	
 	margin-top: 100px;
+}
+
+.services a{
+	color: white;
+	transition: all 0.3s ease;
+}
+
+.services a:hover{
+	opacity: 0.2;
+	transition: all 0.3s ease;
+}
+
+.services a:hover > h3{
+	transition: all 0.3s ease;
+	color: #f4b60d;
 	
 }
 
 .serv-wrapper {
 	color: white;
+	width: 1160px;
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
 }
 
 .services h2 {
@@ -453,16 +469,33 @@ a {
 	text-align: center;
 }
 
+.services-sub-block:first-child {
+	float: left;
+}
+
+.services-sub-block:last-child {
+	float: right;
+}
+
 .services-sub-block {
 	display: inline-block;
-
+	margin-right: 10px;
+	text-align: center;
 }
+
+
+
 
 .double-block {
 	overflow: hidden;
 	padding-top: 20px;
 	background-color: #f7f7f7;
 
+}
+
+.double-b-wrapper {
+	width: 1160px;
+	margin: auto;
 }
 
 .double-block h2 {
@@ -568,15 +601,24 @@ a {
 }
 
 .ultimate-footer {
-	overflow: hidden;
+	
 	background-color: #35383c;
+
+}
+
+.uf-wrapper {
+	width: 1160px;
+	margin: auto;
+	overflow: hidden;
 	font-size: 12px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
+
 }
 
+ 
 .ufooter {
 	display: inline-block;
 	float: left;
