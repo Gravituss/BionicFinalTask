@@ -522,6 +522,16 @@ a {
 	margin: auto;
 }
 
+.uf-block {
+	background-color: #555;
+	color: white;
+	display: inline-block;
+}
+
+.uf-block h3 {
+	text-transform: uppercase;
+}
+
 .ultimate-footer {
 	overflow: hidden;
 	background-color: #35383c;
