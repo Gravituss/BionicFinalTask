@@ -196,8 +196,8 @@ a {
 
 .top-menu {
 	clear: both;
-	position: absolute;
-	top: 75px;
+	
+	
 	overflow: hidden;
 	background-color: #2a2d32;
 	width: 1160px;
@@ -211,11 +211,11 @@ a {
 	padding-left: 36px;
 	padding-right: 37px;
 	padding-top: 21px;
-	padding-bottom: 2px;
+	padding-bottom: 17px;
 	background-color: #2a2d32;
 	color: white;
 	text-transform: uppercase;
-	height: 33px;
+	/*height: 15px;*/
 	border-right: 1px solid #181a1d;
 	transition: all 0.2s ease;
 	font-size: 14px;
@@ -236,9 +236,9 @@ a {
 
 .search-form {
 	float: right;
-	position: relative;
-	top: 5px;
-	right: 8px;
+	margin-top: 10px;
+	margin-right: 8px;
+
 
 }
 
@@ -291,11 +291,13 @@ a {
 	opacity: 0.8;
 }
 
-/*-------------------------------------------------------------------- / Header ------------------------------*/
+/*-------------------------------------------------------------------- The end of Header ------------------------------*/
 
 .content {
 	width: 1160px;
-	margin: 0 auto;	
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .iii-block {
