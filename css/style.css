@@ -430,20 +430,17 @@ a {
 	text-align:center;
 	margin-top: 80px;
 	margin-bottom: 80px;
-	opacity: .65;
+	
 }
 
 .sponsors a {
 	transition: all 0.3s ease;
-	position: relative;
-	top: 0;
+	opacity: 0.65;
 	
 }
 
 .sponsors a:hover {
 	transition: all 0.3s ease;
-	position: relative;
-	top: 0px;
 	opacity: .45;
 
 }
