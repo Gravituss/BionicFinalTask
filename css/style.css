@@ -196,11 +196,10 @@ a {
 
 .top-menu {
 	clear: both;
-	
-	
 	overflow: hidden;
 	background-color: #2a2d32;
 	width: 1160px;
+	margin-top: 300px;
 	
 }
 
@@ -295,10 +294,53 @@ a {
 
 .content {
 	width: 1160px;
-	margin-top: 150px;
+	/*margin-top: 150px;*/
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.banner-wrapper {
+	background-image: url('../img/banner.jpg');
+	
+	max-width: 1160px;
+	height: 470px;
+}
+
+.byb {
+	position: relative;
+	top: 60px;
+	left: 5px;
+}
+
+.tripple-dot {
+	position: relative;
+	bottom: -55px;
+	margin: auto;
+}
+
+.dot {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	display: inline-block;
+}
+
+.hover-dot {
+	width: 15px;
+	height: 15px;
+	background-color: #222;
+	display: none;
+	margin: auto;
+}
+
+.hover-dot:hover {
+	display: block;
+}
+
+
+
+
+
 
 .iii-block {
 	counter-increment: my-counter;
