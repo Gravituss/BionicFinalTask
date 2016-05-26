@@ -308,36 +308,38 @@ a {
 
 .byb {
 	position: relative;
-	top: 60px;
+	top: 220px;
 	left: 5px;
 }
 
 .tripple-dot {
 	position: relative;
-	bottom: -55px;
-	margin: auto;
+	bottom: -235px;
+	
+	left: 50%;
+	margin-right: -580px;	
 }
 
 .dot {
 	width: 20px;
 	height: 20px;
-	background-color: red;
+	background-color: white;
 	display: inline-block;
+	margin-right: 15px;
+
 }
 
-.hover-dot {
-	width: 15px;
-	height: 15px;
-	background-color: #222;
-	display: none;
-	margin: auto;
+.dot:hover {
+	width: 14px;
+	height: 14px;
+	background-color: #001d1d;
+	border: 3px solid white;
+	cursor: pointer;
+	box-sizing: padding-box;
+
+	
+
 }
-
-.hover-dot:hover {
-	display: block;
-}
-
-
 
 
 
