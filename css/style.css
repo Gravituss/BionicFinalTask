@@ -522,18 +522,34 @@ a {
 	margin: auto;
 }
 
-.uf-block {
+.upper-footer {
+	margin: auto;
 	background-color: #555;
+}
+
+.uf-block {
+	margin-top: 80px;
+	margin-bottom: 80px;
 	color: white;
 	display: inline-block;
 }
 
 .uf-block li {
-	
+	border-top: 1px solid red;
+	width: 260px;
+	margin-top: 10px;
+}
+
+.uf-block li:first-child {
+	border-top: none;
+	width: auto;
+	margin-top: 0px;
 }
 
 .uf-block h3 {
 	text-transform: uppercase;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .ultimate-footer {
