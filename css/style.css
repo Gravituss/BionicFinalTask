@@ -467,6 +467,24 @@ a {
 	cursor: pointer;
 }
 
+.cross-vertical {
+	position: relative;
+	top: 117px;
+	left: 117px;
+	width: 5px;
+	height: 35px;
+	background-color: #fff;
+}
+
+.cross-horizontal {
+	position: relative;
+	top: 100px;
+	left: 100px;	
+	width: 35px;
+	height: 5px;
+	background-color: #fff;
+}
+
 
 
 
