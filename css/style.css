@@ -453,32 +453,44 @@ a {
 
 .services .blue-block {
 	background-color: #248cec;
-	width: 230px;
-	height: 230px;
+	width: 260px;
+	height: 260px;
 	position:relative;
-	top: 10px;
+	top: 0px;
 	left: 0px;
-	opacity: 0.65;
+	opacity: 0.23;
+	transition: all 0.3s ease;
 }
+
+.services .blue-block:hover {
+	opacity: 0.73;
+	transition: all 0.3s ease;
+}	
+
+
 
 #schedule {
 	background-image: url('../img/rectangle01.jpg');
 	background-size: 260px 260px;
+	background-repeat: no-repeat;
 }
 
 #preventive {
 	background-image: url('../img/rectangle02.jpg');
 	background-size: 260px 260px;
+	background-repeat: no-repeat;
 }
 
 #tire {
 	background-image: url('../img/rectangle03.jpg');
 	background-size: 260px 260px;
+	background-repeat: no-repeat;
 }
 
 #repair {
 	background-image: url('../img/rectangle04.jpg');
 	background-size: 260px 260px;
+	background-repeat: no-repeat;
 }
 
 
@@ -518,6 +530,7 @@ a {
 	display: inline-block;
 	margin-right: 10px;
 	text-align: center;
+
 }
 
 
