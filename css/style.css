@@ -451,13 +451,12 @@ a {
 	
 }
 
+
+
 .services .blue-block {
 	background-color: #248cec;
 	width: 260px;
 	height: 260px;
-	position:relative;
-	top: 0px;
-	left: 0px;
 	opacity: 0.23;
 	transition: all 0.3s ease;
 }
@@ -465,7 +464,28 @@ a {
 .services .blue-block:hover {
 	opacity: 0.73;
 	transition: all 0.3s ease;
-}	
+	cursor: pointer;
+}
+
+
+
+
+.services .blue-block:hover + a {
+	color: #f4b60d;
+	transition: all 0.3s ease;	
+}
+
+.services a:hover ~ .blue-block {
+	opacity: 0.73;
+	transition: all 0.3s ease;	
+}
+
+
+
+
+
+
+
 
 
 
@@ -516,6 +536,7 @@ a {
 	padding-bottom: 40px;
 	text-transform: capitalize;
 	text-align: center;
+	transition: all 0.3s ease;
 }
 
 .services-sub-block:first-child {
