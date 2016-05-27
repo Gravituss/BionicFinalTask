@@ -38,6 +38,8 @@ a {
 
 .social-media {
 	float: right;
+	position: relative;
+	top: 18px;
 }
 
 .social-media li {
@@ -555,35 +557,36 @@ a {
 }
 
 .services h2 {
-	font-size: 30px;
+	font-size: 25px;
 	text-transform: capitalize;
 	text-align: left;
-	
+	margin-top: 45px;
+	margin-bottom: 53px;
 }
 
 .services h3 {
-	padding-top: 20px;
+	padding-top: 34px;
 	padding-bottom: 40px;
 	text-transform: capitalize;
 	text-align: center;
 	transition: all 0.3s ease;
+	font-weight: 500;
+	font-size: 17px;
 }
 
-.services-sub-block:first-child {
-	float: left;
-}
 
-.services-sub-block:last-child {
-	float: right;
-}
+
 
 .services-sub-block {
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 38px;
 	text-align: center;
 
 }
 
+.services-sub-block:last-child {
+	margin-right: 0px;
+}
 
 
 
