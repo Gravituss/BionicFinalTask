@@ -457,31 +457,31 @@ a {
 	background-color: #248cec;
 	width: 260px;
 	height: 260px;
-	opacity: 0.23;
+	opacity: 0;
 	transition: all 0.3s ease;
 }
 
 .services .blue-block:hover {
-	opacity: 0.73;
+	opacity: 0.9;
 	transition: all 0.3s ease;
 	cursor: pointer;
 }
 
 .cross-vertical {
 	position: relative;
-	top: 117px;
-	left: 117px;
-	width: 5px;
+	top: 97px;
+	left: 128px;
+	width: 3px;
 	height: 35px;
 	background-color: #fff;
 }
 
 .cross-horizontal {
 	position: relative;
-	top: 100px;
-	left: 100px;	
+	top: 78px;
+	left: 112px;	
 	width: 35px;
-	height: 5px;
+	height: 3px;
 	background-color: #fff;
 }
 
@@ -493,13 +493,23 @@ a {
 	transition: all 0.3s ease;	
 }
 
+
+
 .services a:hover ~ .blue-block {
-	opacity: 0.73;
+	opacity: 0.9;
 	transition: all 0.3s ease;	
 }
 
 
+.services .blue-block:hover > .cross-vertical {
+	opacity: 1;
+	transition: all 0.3s ease;	
+}
 
+.services .blue-block:hover > .cross-horizontal {
+	opacity: 1;
+	transition: all 0.3s ease;	
+}
 
 
 
