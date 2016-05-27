@@ -388,6 +388,14 @@ a {
 	margin-right: 0px;
 }
 
+.empty-box div {
+	width: 8px;
+	height: 70px;
+	background-color: red;
+	text-indent: -9999px;
+
+}
+
 
 .iii-block h3 {
 	text-transform: capitalize;
@@ -396,12 +404,13 @@ a {
 	color: #2a2b2e;
 }
 
-.iii-block:before {
-  content: counter(my-counter, decimal-leading-zero);
-  font-size: 90px;
-  font-weight: 500;
-  opacity: 0.06;
-  float: left;
+.empty-box:before {
+	
+	content: counter(my-counter, decimal-leading-zero);
+	font-size: 90px;
+	font-weight: 500;
+	opacity: 0.06;
+	float: left;
 }
 
 .block-text {
@@ -417,8 +426,8 @@ a {
 	transition: all 0.2s ease;
 	color: #2a2b2e;
 	font-weight: bold;
-	margin-top: 20px;
-	color: #2a2b2e;
+	padding-top: 20px;
+	
 }
 
 .iii-block a:hover {
