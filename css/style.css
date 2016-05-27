@@ -1,6 +1,6 @@
 body {
 	 counter-reset: my-counter;
-	 padding-bottom: 200px;
+	 padding-bottom: 100px;
 	 
 }
 
@@ -44,7 +44,7 @@ a {
 
 .social-media li {
 	display: inline-block;
-	margin-left: 5px;
+	margin-left: 7px;
 }
 
 /* - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ HEADER SPRITES - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ */
@@ -374,22 +374,26 @@ a {
 }
 
 .iii-block {
-	text-align: left;
-}
-
-
-.iii-block {
-
+	text-align: justify;
+	vertical-align: top;
 	counter-increment: my-counter;
 	display: inline-block;
+	margin-top: 70px;
 	margin-right: 100px;
 	overflow: hidden;
+	width: 240px;
 }
+
+.iii-block:last-child {
+	margin-right: 0px;
+}
+
 
 .iii-block h3 {
 	text-transform: capitalize;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 500;
+	color: #2a2b2e;
 }
 
 .iii-block:before {
@@ -401,7 +405,7 @@ a {
 }
 
 .block-text {
-	width: 200px;
+	color: #8a8a8a;
 	float: left;
 }
 
@@ -414,6 +418,7 @@ a {
 	color: #2a2b2e;
 	font-weight: bold;
 	margin-top: 20px;
+	color: #2a2b2e;
 }
 
 .iii-block a:hover {
@@ -423,10 +428,16 @@ a {
 }
 
 .iii-block a:after {
-	content: '';
-	width: 10px;
-	height: 10px;
-	background-image: url('../img/small-arrow-sprite.png') no-repeat 0px 0px;
+	content: '88';
+	color: transparent;
+	position: relative;
+	top: 6px;
+	margin-left: 10px;
+	background-image: url('../img/small-arrow-sprite.png');
+	background-position: 0px -10px;
+	background-size: auto auto;
+	background-clip: content-box;
+	background-repeat: no-repeat;
 
 }
 
@@ -579,7 +590,7 @@ a {
 
 .services-sub-block {
 	display: inline-block;
-	margin-right: 38px;
+	margin-right: 36px;
 	text-align: center;
 
 }
@@ -675,7 +686,7 @@ a {
 .upper-footer {
 	width: auto;
 	margin: auto;
-	background-color: #555;
+	background-color: #2a2d32;
 }
 
 .uf-block {
