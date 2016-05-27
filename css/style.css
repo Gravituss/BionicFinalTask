@@ -431,6 +431,10 @@ a {
 	margin-top: 100px;
 }
 
+.services span {
+	text-indent: -9999px;
+}
+
 .services a{
 	color: white;
 	transition: all 0.3s ease;
@@ -446,6 +450,39 @@ a {
 	color: #f4b60d;
 	
 }
+
+.services .blue-block {
+	background-color: #248cec;
+	width: 230px;
+	height: 230px;
+	position:relative;
+	top: 10px;
+	left: 0px;
+	opacity: 0.65;
+}
+
+#schedule {
+	background-image: url('../img/rectangle01.jpg');
+	background-size: 260px 260px;
+}
+
+#preventive {
+	background-image: url('../img/rectangle02.jpg');
+	background-size: 260px 260px;
+}
+
+#tire {
+	background-image: url('../img/rectangle03.jpg');
+	background-size: 260px 260px;
+}
+
+#repair {
+	background-image: url('../img/rectangle04.jpg');
+	background-size: 260px 260px;
+}
+
+
+
 
 .serv-wrapper {
 	color: white;
