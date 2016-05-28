@@ -413,7 +413,7 @@ a {
 	font-weight: 500;
 	color: #2a2b2e;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 18px;
 }
 
 .counter-box:before {
@@ -443,8 +443,10 @@ a {
 .iii-block a {
 	transition: all 0.2s ease;
 	color: #2a2b2e;
-	font-weight: bold;
+	font-weight: 500;
+	font-size: 13px;
 	padding-top: 20px;
+	text-transform: capitalize;
 	
 }
 
@@ -458,7 +460,8 @@ a {
 	content: '88';
 	color: transparent;
 	position: relative;
-	top: 6px;
+	top: 3px;
+	right: 1px;
 	margin-left: 10px;
 	background-image: url('../img/small-arrow-sprite.png');
 	background-position: 0px -10px;
