@@ -384,7 +384,7 @@ a {
 	margin-right: 20px;
 
 	overflow: hidden;
-	width: 240px;
+	width: 245px;
 	float: left;
 }
 
@@ -409,9 +409,11 @@ a {
 
 .iii-block h3 {
 	text-transform: capitalize;
-	font-size: 20px;
+	font-size: 19.5px;
 	font-weight: 500;
 	color: #2a2b2e;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .counter-box:before {
@@ -419,7 +421,7 @@ a {
 	content: counter(my-counter, decimal-leading-zero);
 	font-size: 90px;
 	font-weight: 500;
-	opacity: 0.9;
+	opacity: 0.22;
 	position: relative;
 	left: 53px;
 
@@ -429,6 +431,9 @@ a {
 .block-text {
 	color: #8a8a8a;
 	float: left;
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 18px;
 }
 
 .read-more-link {
