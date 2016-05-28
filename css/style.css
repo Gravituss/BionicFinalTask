@@ -318,7 +318,7 @@ a {
 
 .tripple-dot {
 	position: relative;
-	width: 500px;
+	width: 180px;
 	left: 50%;
 	margin-left: -37px;	
 	margin-top: 6px;
@@ -372,12 +372,12 @@ a {
 	width: 1160px;
 	margin: auto;
 	text-align: center;
+
 }
 
 .iii-block {
 	text-align: justify;
 	vertical-align: top;
-	counter-increment: my-counter;
 	display: inline-block;
 	margin-top: 70px;
 	margin-right: 100px;
@@ -389,11 +389,17 @@ a {
 	margin-right: 0px;
 }
 
-.empty-box div {
-	width: 8px;
-	height: 70px;
+.empty-box {
+	margin-top: 100px;
+	position: relative;
+	left: 100px;
+	width: 5px;
+	height: 100px;
 	background-color: red;
-	text-indent: -9999px;
+	text-indent: -99px;
+	opacity: 0.3;
+	float: left;
+	counter-increment: my-counter;
 
 }
 
@@ -410,8 +416,8 @@ a {
 	content: counter(my-counter, decimal-leading-zero);
 	font-size: 90px;
 	font-weight: 500;
-	opacity: 0.06;
-	float: left;
+	opacity: 0.9;
+	
 }
 
 .block-text {
