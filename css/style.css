@@ -749,16 +749,59 @@ h2 {
 	overflow: hidden;
 }
 
-.acc-panel span.minus {
+
+
+.acc-panel.active div.minus {
+	background-color: #f4b60d;
+	border-right: 1px solid #f6c53d;
+	color: white;
+	display: block;
+}
+
+.acc-panel div.minus {
 	font-family: "Batang", "Bell MT", "Arial", sans-serif;
 	font-size: 26px;
-	color: white;
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
 	height: 50px;
 	width: 50px;
-	border-right: 2px solid #f6c53d;
-	background-color: #f4b60d;
+	display: none;
 	float: left;
 }
+
+
+.acc-panel div.plus {
+	background-color: #f4b60d;
+	border-right: 1px solid #f6c53d;
+	color: white;
+	display: block;
+}
+
+.acc-panel.active div.plus {
+	font-family: "Batang", "Bell MT", "Arial", sans-serif;
+	font-size: 26px;
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+	height: 50px;
+	width: 50px;
+	display: none;
+	float: left;
+}
+
+
+
+
+
+
+.acc-panel.active div.acc-text {
+	display: block;
+}
+
+.acc-panel div.acc-text {
+	display: none;
+}
+
+
 
 
 .acc-header {
@@ -772,6 +815,7 @@ h2 {
 
 .acc-text {
 	width: 550px;
+	margin-top: 30px;
 
 }
 
@@ -782,6 +826,7 @@ h2 {
     letter-spacing: -0.5px;
 	margin-left: 52px;
 	margin-right: 5px;
+
 
 
 /*    display: -webkit-box;
