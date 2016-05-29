@@ -1,7 +1,5 @@
 body {
 	 counter-reset: my-counter;
-	 padding-bottom: 100px;
-	 
 }
 
 div {
@@ -666,7 +664,7 @@ h2 {
 
 .news-block {
 	overflow: hidden;
-	margin-bottom: 20px;
+	margin-bottom: 28px;
 }
 
 .news-block span, p {
@@ -685,7 +683,7 @@ h2 {
 .latest-news {
 	float: left;
 	width: 560px;
-	margin-bottom: 48px;
+	margin-bottom: 51px;
 }
 
 .img-block {
@@ -698,10 +696,10 @@ h2 {
 }
 
 .news-text a h4 {
-	font-weight: bold;
-	font-size: 15px;
+	font-weight: 500;
+	font-size: 16px;
 	color: #2a2d32;
-	padding-top: 6px;
+	padding-top: 4px;
 	padding-bottom: 9px;
 }
 .news-text a:hover h4 {
@@ -771,22 +769,33 @@ h2 {
 }
 
 .footer {
-	
+	font-family: "Arial", "Ubuntu", sans-serif;
 	margin: auto;
 }
 
 .upper-footer {
 	width: auto;
-	margin: auto;
 	background-color: #2a2d32;
+}
+
+.uf-wrapper {
+	width: 1160px;
+	margin: auto;
+	overflow: hidden;
+	font-size: 12px;
+	padding-top: 0px;
+	padding-bottom: 61px;
+
+
 }
 
 .upper-footer a {
 	text-decoration: none;
 	color: #828385;
-	font-size: 13.6px;
+	font-size: 13.3px;
 	letter-spacing: -0.7px;
 	font-weight: 500;
+	padding-left: 3px;
 }
 
 .upper-footer a:hover {
@@ -795,9 +804,9 @@ h2 {
 }
 
 .uf-block {
-	margin-top: 80px;
-	margin-bottom: 80px;
-	margin-right: 37px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	margin-right: 26px;
 	color: white;
 	display: inline-block;
 }
@@ -805,41 +814,52 @@ h2 {
 .uf-block li {
 	border-top: 1px solid #393c40;
 	width: 260px;
-	margin-top: 12px;
-	margin-bottom: 12px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	
+
 }
 
 .uf-block li:first-child {
 	border-top: none;
 	width: auto;
-	margin-top: 0px;
+	padding-top: 0px;
 
 }
 
 .uf-block h3 {
 	text-transform: uppercase;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 0px;
+	padding-bottom: 46px;
 	font-weight: 600;
+	font-size: 16.2px;
 }
 
-.ultimate-footer {
+.lower-footer {
 	
 	background-color: #35383c;
 
 }
 
-.uf-wrapper {
-	width: 1160px;
+.lf-wrapper {
+
 	margin: auto;
-	overflow: hidden;
-	font-size: 12px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
+	width: 1160px;
+	padding-top: 24px;
+	padding-bottom: 47px;
+	font-size: 12.5px;
+	letter-spacing: -0.1px;
+}
+
+.lf-wrapper img {
+	opacity: 0.2;
+	padding-right: 7px;
+	position: relative;
+	top: 3.4px;
 
 }
+
+
 
  
 .ufooter {
@@ -875,4 +895,6 @@ h2 {
 .copyright {
 	float: right;
 	color: #6f7073;
+	position: relative;
+	top: 5.8px;
 }
