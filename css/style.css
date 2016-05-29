@@ -12,6 +12,12 @@ a {
 	text-decoration: none;
 }
 
+h2 {
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
 .header {
 	width: 1160px;
 	margin: 0 auto;
@@ -610,8 +616,7 @@ a {
 }
 
 .services h2 {
-	font-size: 25px;
-	text-transform: capitalize;
+
 	text-align: left;
 	margin-top: 45px;
 	margin-bottom: 53px;
@@ -655,11 +660,7 @@ a {
 	margin: auto;
 }
 
-.double-block h2 {
-	font-size: 28px;
-	text-transform: capitalize;
-	font-weight: bold;
-}
+
 
 .news-block {
 	overflow: hidden;
@@ -693,7 +694,10 @@ a {
 .banners-place {
 	float: right;
 	width: 560px;
+	background-color: #bbb;
 }
+
+
 
 .sponsors {
 	text-align:center;
