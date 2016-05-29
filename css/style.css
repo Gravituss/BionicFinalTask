@@ -755,42 +755,76 @@ h2 {
 	background-color: #f4b60d;
 	border-right: 1px solid #f6c53d;
 	color: white;
+	font-family: "Batang", "Bell MT", "Arial", sans-serif;
+	font-size: 21px;
+	height: 32px;
+	width: 38px;
+	float: left;
+	text-align: center;
+	padding-top: 7px;
+
 	display: block;
+
 }
 
 .acc-panel div.minus {
-	font-family: "Batang", "Bell MT", "Arial", sans-serif;
-	font-size: 26px;
-	background-color: #fff;
-	border: 1px solid #e8e8e8;
-	height: 50px;
-	width: 50px;
 	display: none;
-	float: left;
 }
 
 
 .acc-panel div.plus {
-	background-color: #f4b60d;
-	border-right: 1px solid #f6c53d;
-	color: white;
+
+	color: #2a2d32;
+	height: 32px;
+	width: 37px;
+	float: left;
+	font-family: "Batang", "Bell MT", "Arial", sans-serif;
+	font-size: 21px;
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+	text-align: center;
+	padding-top: 7px;
+
 	display: block;
+
 }
 
 .acc-panel.active div.plus {
-	font-family: "Batang", "Bell MT", "Arial", sans-serif;
-	font-size: 26px;
-	background-color: #fff;
-	border: 1px solid #e8e8e8;
-	height: 50px;
-	width: 50px;
 	display: none;
+}
+
+
+.acc-header {
+	text-transform: uppercase;
 	float: left;
 }
 
 
 
 
+.acc-panel .acc-header {
+	color: #2a2d32;
+	background-color: white;
+	height: 32px;
+	width: 480px;
+	border: 1px solid #e8e8e8;
+	padding-top: 7px;
+	padding-left: 15px;
+	
+	
+}
+
+.acc-panel.active .acc-header {
+	height: 32px;
+	width: 480px;
+	background-color: #f4b60d;	
+	color: white;
+	border: none;
+	margin-bottom: 24px;
+	padding-top: 7px;
+	padding-left: 15px;
+
+}
 
 
 .acc-panel.active div.acc-text {
@@ -799,18 +833,6 @@ h2 {
 
 .acc-panel div.acc-text {
 	display: none;
-}
-
-
-
-
-.acc-header {
-	height: 50px;
-	width: 508px;
-	background-color: #f4b60d;
-	text-transform: uppercase;
-	float: left;
-	color: white;
 }
 
 .acc-text {
@@ -826,6 +848,9 @@ h2 {
     letter-spacing: -0.5px;
 	margin-left: 52px;
 	margin-right: 5px;
+	
+
+	clear: both;
 
 
 
