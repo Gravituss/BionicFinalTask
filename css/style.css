@@ -655,6 +655,10 @@ h2 {
 
 }
 
+.double-block h2 {
+	padding-bottom: 48px;
+}
+
 .double-b-wrapper {
 	width: 1160px;
 	margin: auto;
@@ -662,10 +666,16 @@ h2 {
 
 .news-block {
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .news-block span, p {
 	color: #8a8a8a;
+	letter-spacing: -0.1px;
+}
+
+.news-block p {
+	padding-top: 10px;
 }
 
 .latest-news {
