@@ -485,7 +485,7 @@ a {
 
 .services {
 	background-color: #2a2d32;
-	margin-top: 100px;
+	margin-top: 86px;
 }
 
 .services span {
@@ -731,23 +731,39 @@ a {
 	background-color: #2a2d32;
 }
 
+.upper-footer a {
+	text-decoration: none;
+	color: #828385;
+	font-size: 13.6px;
+	letter-spacing: -0.7px;
+	font-weight: 500;
+}
+
+.upper-footer a:hover {
+	color: #248cec;
+
+}
+
 .uf-block {
 	margin-top: 80px;
 	margin-bottom: 80px;
+	margin-right: 37px;
 	color: white;
 	display: inline-block;
 }
 
 .uf-block li {
-	border-top: 1px solid red;
+	border-top: 1px solid #393c40;
 	width: 260px;
-	margin-top: 10px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 .uf-block li:first-child {
 	border-top: none;
 	width: auto;
 	margin-top: 0px;
+
 }
 
 .uf-block h3 {
