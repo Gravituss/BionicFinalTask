@@ -660,21 +660,18 @@ h2 {
 	margin: auto;
 }
 
-
-
 .news-block {
 	overflow: hidden;
+}
+
+.news-block span, p {
+	color: #8a8a8a;
 }
 
 .latest-news {
 	float: left;
 	width: 560px;
 	margin-bottom: 48px;
-}
-
-.latest-news h4 {
-	font-weight: bold;
-	font-size: 18px;
 }
 
 .img-block {
@@ -686,15 +683,35 @@ h2 {
 	float: right;
 }
 
-.news-text h4 {
-	text-transform: capitalize;
+.news-text a h4 {
+	font-weight: bold;
 	font-size: 15px;
+	color: #2a2d32;
+	padding-bottom: 7px;
+}
+.news-text a:hover h4 {
+	color: #248cec;
+}
+
+.news-text .sub-header a {
+	transition: all 0.3s ease;
+	text-decoration: none;
+	color: #248cec;
+}
+
+.news-text .sub-header a:hover {
+	transition: all 0.3s ease;
+	color: #124779;
+}
+
+.news-text .sub-header span {
+	padding-right: 7px;
 }
 
 .banners-place {
 	float: right;
 	width: 560px;
-	background-color: #bbb;
+	background-color: #ddd;
 }
 
 
