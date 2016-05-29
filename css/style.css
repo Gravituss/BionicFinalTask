@@ -374,6 +374,7 @@ a {
 	text-align: center;
 	overflow: hidden;
 
+
 }
 
 .iii-block {
@@ -381,11 +382,16 @@ a {
 	vertical-align: top;
 	display: inline-block;
 	margin-top: 70px;
-	margin-right: 20px;
+	margin-right: 60px;
 
 	overflow: hidden;
-	width: 245px;
+	width: 237px;
 	float: left;
+}
+
+.iii-block img {
+	position: relative;
+	left: -4px;
 }
 
 .iii-block:last-child {
@@ -395,7 +401,8 @@ a {
 .counter-box {
 	margin-top: 75px;
 	position: relative;
-	left: 0px;
+	top: -12px;
+	left: -30px;
 	width: 100px;
 	height: 100px;
 	background-color: transparent;
@@ -431,9 +438,11 @@ a {
 .block-text {
 	color: #8a8a8a;
 	float: left;
-	font-size: 13px;
+	font-size: 12.8px;
 	line-height: 20px;
 	margin-bottom: 18px;
+	font-weight: 500;
+	letter-spacing: -0.3px;
 }
 
 .read-more-link {
