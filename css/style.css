@@ -2,7 +2,7 @@ body {
 	 counter-reset: my-counter;
 }
 
-div {
+.header, .content {
 	font-family: "Ubuntu", "Arial", sans-serif;
 }
 
@@ -742,6 +742,18 @@ h2 {
 }
 
 
+.acc-panel span.minus {
+	font-size: 30px;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	border-right: 2px solid blue;
+}
+
+
+
+
 
 .sponsors {
 	text-align:center;
@@ -793,9 +805,10 @@ h2 {
 	text-decoration: none;
 	color: #828385;
 	font-size: 13.3px;
-	letter-spacing: -0.7px;
+	letter-spacing: -0.3px;
 	font-weight: 500;
 	padding-left: 3px;
+
 }
 
 .upper-footer a:hover {
