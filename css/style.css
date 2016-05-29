@@ -738,7 +738,7 @@ h2 {
 .banners-place {
 	float: right;
 	width: 560px;
-	background-color: #ddd;
+	
 }
 
 .banners-place  active {
@@ -749,10 +749,10 @@ h2 {
 	overflow: hidden;
 }
 
-.acc-panel span.plus {
+.acc-panel span.minus {
 	font-family: "Batang", "Bell MT", "Arial", sans-serif;
 	font-size: 26px;
-	color: black;
+	color: white;
 	height: 50px;
 	width: 50px;
 	border-right: 2px solid #f6c53d;
@@ -760,15 +760,34 @@ h2 {
 	float: left;
 }
 
+
 .acc-header {
 	height: 50px;
 	width: 508px;
 	background-color: #f4b60d;
 	text-transform: uppercase;
 	float: left;
+	color: white;
 }
 
+.acc-text {
+	width: 550px;
 
+}
+
+.acc-text p {
+    font-size: 12.8px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+	margin-left: 52px;
+	margin-right: 5px;
+
+
+/*    display: -webkit-box;
+  	-webkit-line-clamp: 5;
+  	-webkit-box-orient: vertical;  */
+}
 
 
 
