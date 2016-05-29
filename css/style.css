@@ -741,14 +741,31 @@ h2 {
 	background-color: #ddd;
 }
 
+.banners-place  active {
+	/*----------------------------------*/
+}
 
-.acc-panel span.minus {
-	font-size: 30px;
+.acc-panel {
+	overflow: hidden;
+}
+
+.acc-panel span.plus {
+	font-family: "Batang", "Bell MT", "Arial", sans-serif;
+	font-size: 26px;
 	color: black;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 20px;
-	border-right: 2px solid blue;
+	height: 50px;
+	width: 50px;
+	border-right: 2px solid #f6c53d;
+	background-color: #f4b60d;
+	float: left;
+}
+
+.acc-header {
+	height: 50px;
+	width: 508px;
+	background-color: #f4b60d;
+	text-transform: uppercase;
+	float: left;
 }
 
 
