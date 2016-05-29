@@ -675,7 +675,11 @@ h2 {
 }
 
 .news-block p {
-	padding-top: 10px;
+	padding-top: 22.1px;
+}
+
+.news-block p:hover {
+	padding-top: 22px;
 }
 
 .latest-news {
@@ -697,7 +701,8 @@ h2 {
 	font-weight: bold;
 	font-size: 15px;
 	color: #2a2d32;
-	padding-bottom: 7px;
+	padding-top: 6px;
+	padding-bottom: 9px;
 }
 .news-text a:hover h4 {
 	color: #248cec;
@@ -716,6 +721,20 @@ h2 {
 
 .news-text .sub-header span {
 	padding-right: 7px;
+	font-size: 12.8px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+}
+
+.news-text p {
+    font-size: 12.8px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+
+    display: -webkit-box;
+  	-webkit-line-clamp: 4;
+  	-webkit-box-orient: vertical;  
 }
 
 .banners-place {
