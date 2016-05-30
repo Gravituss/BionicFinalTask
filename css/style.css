@@ -654,7 +654,7 @@ h2 {
 .news-text {
 	width: 358px;
 	float: left;
-	padding-left: 33px;
+	padding-left: 30px;
 }
 
 .news-text a h4 {
@@ -718,7 +718,7 @@ h2 {
 .calendar span {
 	text-align: center;
 	position: relative;
-	top: 10px;
+	top: 7px;
 
 }
 
@@ -739,15 +739,15 @@ h2 {
 
 .smonth {
 	position: relative;
-	left: 5px;
-	font-size: 18.3px;
+	left: 8px;
+	font-size: 16px;
 	color: white;
 }
 
 .sday {
 	position: relative;
-	left: 7px;	
-	font-size: 21px;
+	left: 10px;	
+	font-size: 18.5px;
 	color: #2a2b2e;
 }
 
