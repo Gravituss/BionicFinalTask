@@ -208,8 +208,6 @@ h2 {
 	background-color: #2a2d32;
 	width: 1160px;
 	height: 56px;
-	
-	
 }
 
 .top-menu a {
@@ -223,7 +221,6 @@ h2 {
 	background-color: #2a2d32;
 	color: white;
 	text-transform: uppercase;
-	/*height: 15px;*/
 	border-right: 1px solid #181a1d;
 	transition: all 0.2s ease;
 	font-size: 14px;
@@ -246,8 +243,6 @@ h2 {
 	float: right;
 	margin-top: 8px;
 	margin-right: 8px;
-
-
 }
 
 #s::-webkit-search-cancel-button {
@@ -302,7 +297,6 @@ h2 {
 /*-------------------------------------------------------------------- The end of Header ------------------------------*/
 
 .content {
-	
 	margin-top: 90px;
 	margin-left: auto;
 	margin-right: auto;
@@ -310,7 +304,6 @@ h2 {
 
 .banner-wrapper {
 	background-image: url('../img/banner.jpg');
-	
 	max-width: 1160px;
 	height: 470px;
 	margin: auto;
@@ -339,7 +332,6 @@ h2 {
 
 .tripple-dot div:hover { 
 	cursor: pointer;
-
 }	
 
 .tripple-dot div > .dot {
@@ -378,8 +370,6 @@ h2 {
 	margin: auto;
 	text-align: center;
 	overflow: hidden;
-
-
 }
 
 .iii-block {
@@ -388,7 +378,6 @@ h2 {
 	display: inline-block;
 	margin-top: 67px;
 	margin-right: 40px;
-
 	overflow: hidden;
 	width: 237px;
 	float: left;
@@ -408,7 +397,6 @@ h2 {
 	margin-right: 35px;
 	position: relative;
 	top: -14px;
-	
 	width: 85px;
 	height: 100px;
 	background-color: transparent;
@@ -416,9 +404,7 @@ h2 {
 	opacity: 0.3;
 	float: left;
 	counter-increment: my-counter;
-
 }
-
 
 .iii-block h3 {
 	text-transform: capitalize;
@@ -430,7 +416,6 @@ h2 {
 }
 
 .counter-box:before {
-	
 	content: counter(my-counter, decimal-leading-zero);
 	font-size: 90px;
 	font-weight: 500;
@@ -438,10 +423,6 @@ h2 {
 	position: relative;
 	left: 53px;
 	letter-spacing: -5px;
-
-
-
-	
 }
 
 .block-text {
@@ -464,13 +445,11 @@ h2 {
 	font-weight: 500;
 	font-size: 13px;
 	text-transform: capitalize;
-	
 }
 
 .iii-block a:hover {
 	transition: all 0.2s ease;
 	color: #248cec;
-
 }
 
 .iii-block a:after {
@@ -485,7 +464,6 @@ h2 {
 	background-size: auto auto;
 	background-clip: content-box;
 	background-repeat: no-repeat;
-
 }
 
 .services {
@@ -510,10 +488,7 @@ h2 {
 .services a:hover > h3{
 	transition: all 0.3s ease;
 	color: #f4b60d;
-	
 }
-
-
 
 .services .blue-block {
 	background-color: #248cec;
@@ -547,21 +522,15 @@ h2 {
 	background-color: #fff;
 }
 
-
-
-
 .services .blue-block:hover + a {
 	color: #f4b60d;
 	transition: all 0.3s ease;	
 }
 
-
-
 .services a:hover ~ .blue-block {
 	opacity: 0.9;
 	transition: all 0.3s ease;	
 }
-
 
 .services .blue-block:hover > .cross-vertical {
 	opacity: 1;
@@ -572,12 +541,6 @@ h2 {
 	opacity: 1;
 	transition: all 0.3s ease;	
 }
-
-
-
-
-
-
 
 #schedule {
 	background-image: url('../img/rectangle01.jpg');
@@ -603,9 +566,6 @@ h2 {
 	background-repeat: no-repeat;
 }
 
-
-
-
 .serv-wrapper {
 	color: white;
 	width: 1160px;
@@ -615,7 +575,6 @@ h2 {
 }
 
 .services h2 {
-
 	text-align: left;
 	margin-top: 45px;
 	margin-bottom: 53px;
@@ -631,41 +590,40 @@ h2 {
 	font-size: 17px;
 }
 
-
-
-
 .services-sub-block {
 	display: inline-block;
 	margin-right: 36px;
 	text-align: center;
-
 }
 
 .services-sub-block:last-child {
 	margin-right: 0px;
 }
 
-
-
 .double-block {
 	overflow: hidden;
-	padding-top: 20px;
+	padding-top: 40px;
 	background-color: #f7f7f7;
-
 }
 
 .double-block h2 {
 	padding-bottom: 48px;
+	font-weight: 500;
+	font-size: 26.4px;
+	color: #2a2d32;
 }
 
 .double-b-wrapper {
-	width: 1160px;
+	width: 1177px;
 	margin: auto;
+	position: relative;
+	right: 8.5px;
 }
 
 .news-block {
 	overflow: hidden;
 	margin-bottom: 28px;
+	padding-left: 17px;
 }
 
 .news-block span, p {
@@ -685,6 +643,12 @@ h2 {
 	float: left;
 	width: 599px;
 	margin-bottom: 51px;
+	padding-left: 17px;
+}
+
+.latest-news h2 {
+	position: relative;
+	left: 16px;
 }
 
 .img-block {
@@ -692,18 +656,19 @@ h2 {
 }
 
 .news-text {
-	width: 375px;
+	width: 358px;
 	float: left;
 	padding-left: 33px;
 }
 
 .news-text a h4 {
-	font-weight: 500;
-	font-size: 16px;
+	font-weight: 600;
+	font-size: 16.2px;
 	color: #2a2d32;
 	padding-top: 4px;
 	padding-bottom: 9px;
 }
+
 .news-text a:hover h4 {
 	color: #248cec;
 }
@@ -736,8 +701,6 @@ h2 {
     font-weight: 500;
     letter-spacing: 0px;
     font-family: "Arial", "Ubuntu", sans-serif;
-
-
     display: -webkit-box;
   	-webkit-line-clamp: 4;
   	-webkit-box-orient: vertical;  
@@ -751,34 +714,23 @@ h2 {
 	font-size: 18.3px;
 	position: relative;
 	top: 15px;
-	left: -575px;
+	left: -556px;
 	z-index: 99;
-}
-
-.calendar span {
-
 }
 
 .calendar .month {
 	float: left;
 	background-color: #248cec;
-	
 	width: 40px;
 	height: 40px;
-
-		
-
 }
 
 .calendar .day {
 	float: left;
 	background-color: #f4b60d;
-	
 	width: 40px;
 	height: 40px;
 	font-weight: 500;
-
-	
 }
 
 .smonth {
@@ -789,12 +741,9 @@ h2 {
 	color: #2a2b2e;
 }
 
-
-
 .banners-place {
 	float: right;
 	width: 560px;
-	
 }
 
 .banners-place  active {
@@ -804,8 +753,6 @@ h2 {
 .acc-panel {
 	overflow: hidden;
 }
-
-
 
 .acc-panel.active div.minus {
 	background-color: #f4b60d;
@@ -818,18 +765,14 @@ h2 {
 	float: left;
 	text-align: center;
 	padding-top: 7px;
-
 	display: block;
-
 }
 
 .acc-panel div.minus {
 	display: none;
 }
 
-
 .acc-panel div.plus {
-
 	color: #2a2d32;
 	height: 28px;
 	width: 37px;
@@ -840,10 +783,7 @@ h2 {
 	border: 1px solid #e8e8e8;
 	text-align: center;
 	padding-top: 9px;
-
-
 	display: block;
-
 }
 
 .acc-panel.active div.plus {
@@ -854,7 +794,6 @@ h2 {
 	position: relative;
 	left: 4px;
 	top: -1px;
-
 }
 
 .minus span {
@@ -862,7 +801,6 @@ h2 {
 	left: 2px;
 	top: 2px;
 }
-
 
 .acc-header {
 	text-transform: uppercase;
@@ -877,9 +815,6 @@ h2 {
 	top: 5px;
 }
 
-
-
-
 .acc-panel .acc-header {
 	color: #2a2d32;
 	background-color: white;
@@ -888,9 +823,7 @@ h2 {
 	border: 1px solid #e8e8e8;
 	padding-top: 7px;
 	padding-left: 15px;
-	margin-bottom: 5px;
-	
-	
+	margin-bottom: 5px;	
 }
 
 .acc-panel.active .acc-header {
@@ -903,7 +836,6 @@ h2 {
 	padding-top: 7px;
 	padding-left: 15px;
 	cursor: pointer;
-
 }
 
 
@@ -918,7 +850,6 @@ h2 {
 .acc-text {
 	width: 550px;
 	margin-bottom: 40px;
-
 }
 
 .acc-text p {
@@ -929,36 +860,23 @@ h2 {
     letter-spacing: -0px;
 	margin-left: 43px;
 	margin-right: 5px;
-	
-
 	clear: both;
-
-
-
-/*    display: -webkit-box;
-  	-webkit-line-clamp: 5;
-  	-webkit-box-orient: vertical;  */
 }
-
-
 
 .sponsors {
 	text-align:center;
 	margin-top: 80px;
 	margin-bottom: 80px;
-	
 }
 
 .sponsors a {
 	transition: all 0.3s ease;
 	opacity: 0.65;
-	
 }
 
 .sponsors a:hover {
 	transition: all 0.3s ease;
 	opacity: .45;
-
 }
 
 .sp-logo {
@@ -984,8 +902,6 @@ h2 {
 	font-size: 12px;
 	padding-top: 0px;
 	padding-bottom: 61px;
-
-
 }
 
 .upper-footer a {
@@ -1016,15 +932,12 @@ h2 {
 	width: 260px;
 	padding-top: 11px;
 	padding-bottom: 11px;
-	
-
 }
 
 .uf-block li:first-child {
 	border-top: none;
 	width: auto;
 	padding-top: 0px;
-
 }
 
 .uf-block h3 {
@@ -1036,9 +949,7 @@ h2 {
 }
 
 .lower-footer {
-	
 	background-color: #35383c;
-
 }
 
 .lf-wrapper {
@@ -1056,11 +967,7 @@ h2 {
 	padding-right: 7px;
 	position: relative;
 	top: 3.4px;
-
 }
-
-
-
  
 .ufooter {
 	display: inline-block;
