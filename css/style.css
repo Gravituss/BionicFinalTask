@@ -274,8 +274,8 @@ h2 {
 	width: 240px;
 	color: #ddd;
 	padding-left: 14px;
-	padding-top: 14px;
-	padding-bottom: 15px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	background-color: #0c1524;
 	transition: all 0.4s ease;
 }
@@ -683,7 +683,7 @@ h2 {
 
 .latest-news {
 	float: left;
-	width: 560px;
+	width: 599px;
 	margin-bottom: 51px;
 }
 
@@ -692,8 +692,9 @@ h2 {
 }
 
 .news-text {
-	width: 373px;
-	float: right;
+	width: 375px;
+	float: left;
+	padding-left: 33px;
 }
 
 .news-text a h4 {
@@ -705,6 +706,10 @@ h2 {
 }
 .news-text a:hover h4 {
 	color: #248cec;
+}
+
+.sub-header {
+	font-family: "Arial", "Ubuntu", sans-serif;
 }
 
 .news-text .sub-header a {
@@ -729,12 +734,62 @@ h2 {
     font-size: 12.8px;
     line-height: 20px;
     font-weight: 500;
-    letter-spacing: -0.3px;
+    letter-spacing: 0px;
+    font-family: "Arial", "Ubuntu", sans-serif;
+
 
     display: -webkit-box;
   	-webkit-line-clamp: 4;
   	-webkit-box-orient: vertical;  
 }
+
+.calendar {
+	float: left;
+	overflow: hidden;
+	width: 40px;
+	height: 80px;
+	font-size: 18.3px;
+	position: relative;
+	top: 15px;
+	left: -575px;
+	z-index: 99;
+}
+
+.calendar span {
+
+}
+
+.calendar .month {
+	float: left;
+	background-color: #248cec;
+	
+	width: 40px;
+	height: 40px;
+
+		
+
+}
+
+.calendar .day {
+	float: left;
+	background-color: #f4b60d;
+	
+	width: 40px;
+	height: 40px;
+	font-weight: 500;
+
+	
+}
+
+.smonth {
+	color: white;
+}
+
+.sday {
+	color: #2a2b2e;
+}
+
+
 
 .banners-place {
 	float: right;
@@ -847,6 +902,7 @@ h2 {
 	margin-bottom: 24px;
 	padding-top: 7px;
 	padding-left: 15px;
+	cursor: pointer;
 
 }
 
@@ -866,10 +922,11 @@ h2 {
 }
 
 .acc-text p {
+	font-family: "Arial", "Ubuntu", sans-serif;
     font-size: 12.8px;
     line-height: 20px;
     font-weight: 500;
-    letter-spacing: -0.5px;
+    letter-spacing: -0px;
 	margin-left: 43px;
 	margin-right: 5px;
 	
@@ -938,12 +995,12 @@ h2 {
 	letter-spacing: -0.3px;
 	font-weight: 500;
 	padding-left: 3px;
-
+	transition: all 0.3s ease;
 }
 
 .upper-footer a:hover {
 	color: #248cec;
-
+	transition: all 0.3s ease;
 }
 
 .uf-block {
